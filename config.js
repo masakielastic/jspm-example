@@ -12,18 +12,6 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
-  bundles: {
-    "build.js": [
-      "lib/main.js",
-      "lib/foo.js",
-      "npm:babel-runtime@5.8.24/helpers/class-call-check",
-      "npm:babel-runtime@5.8.24/helpers/create-class",
-      "npm:babel-runtime@5.8.24/core-js/object/define-property",
-      "npm:core-js@1.1.4/library/fn/object/define-property",
-      "npm:core-js@1.1.4/library/modules/$"
-    ]
-  },
-
   map: {
     "babel": "npm:babel-core@5.8.24",
     "babel-runtime": "npm:babel-runtime@5.8.24",
